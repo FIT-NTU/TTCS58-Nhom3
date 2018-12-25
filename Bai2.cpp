@@ -24,6 +24,7 @@ bool checkYear(int y) {
 
 int timSTT(DATE n) {
 	int stt = 0;
+	int month[13]={0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
 	
 	for (int i = 0; i < n.month; i++)
 		stt += month[i];
